@@ -38,6 +38,11 @@ def transpose(bef_matrix):
 
 
 def print_matrix(matrix):
+    """
+    Prints matrix in formatted way
+    of unpacked row lists
+    :param matrix: matrix in a form of list of lists
+    """
     rows = len(matrix)
     for row in range(rows):
         print(*matrix[row])
