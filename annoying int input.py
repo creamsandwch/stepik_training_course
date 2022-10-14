@@ -23,5 +23,4 @@ def get_int(
             print(error_message)
 
 
-x = get_int()
 
